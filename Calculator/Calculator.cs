@@ -6,7 +6,7 @@ namespace CalculatorOperators
     {
         public static int Add(int n1, int n2)
         {
-            throw new NotImplementedException();
+            return n1 + n2;
         }
     }
 }
