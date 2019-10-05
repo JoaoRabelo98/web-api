@@ -14,7 +14,6 @@ steps:
   inputs:
     command: test
     projects: 'web-api.test/web-api.test.csproj'
-    arguments: '--configuration $(buildConfiguration)'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
